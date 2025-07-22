@@ -9,14 +9,14 @@
 
 # input angka atau integer
 
-new_nama = input("siapa nama mu? : ")
-new_usia = int(input("berapa usia mu saat ini? : "))
+new_nama = input("who's your name? : ")          
+new_age = int(input("how old are you? : "))                #here you can see how old you are in 2030
 
-usia2030 = new_usia + 5
+usia2030 = new_age + 5
 
 print("kamu adalah: " + new_nama)
 print("dan usia mu pada 2030 adalah: " + str(usia2030))
 
 # bisa juga begini
 
-print(f"halo {new_nama}, umur mu nanti di 2030 itu {new_usia + 5}")  # keren juga 
+print(f"halo {new_nama}, umur mu nanti di 2030 itu {new_age + 5}")  # keren juga 

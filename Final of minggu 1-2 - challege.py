@@ -1,10 +1,16 @@
-yudi = input("opkosandnasidn : ")
-tinggi_badan = int(input("tinggi badan mu :"))
-berat_badan = int(input("berat badan mu (kg) :"))
 
-tinggipangkat2 = tinggi_badan ** 2
+print("\n\n----------------body mass index---------------\n")               
 
-print(f"halo {yudi}, hasil BMI kamu adalah {berat_badan / tinggi_badan ** 2}")
+yudi = input("your name here : ")                         
+height_badan = float(input("your Height (cm): "))              #you can add you Height in cm here like this : 1.77
+wheight_badan = int(input("your Wheight (kg) :"))           #you can add your Wheight in kg here like this : 61
+
+tinggipangkat2 = height_badan ** 2
+
+print(f"hello {yudi}, Result of your BMI is : {wheight_badan / height_badan ** 2}")  
+
+
+
 
 #Panjang = int(input("berapa Panjang persegi mu? : "))
 #lebar = int(input("berapa Lebar persegi mu? : "))

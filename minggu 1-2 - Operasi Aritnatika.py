@@ -1,4 +1,4 @@
-# pengurangan dan penjumlahan
+# pengurangan dan penjumlahan 
 
 a = 54
 b = 32
@@ -10,17 +10,19 @@ f = 2
 print(e-f)
 
 # konversi suhu
+print("-------------temperature convertion--------------")
 
-celsius = 52         
-fahrenheit = 125.6
+celsius = 0                          #you can change 0 to your temperature here
+fahrenheit = 0                     
+
 
 fahrenhiet = (celsius * 9) / 5 + 32
 celsuis = (fahrenheit -32) * 5 / 9
 reamur = (celsius * 4) / 5
 kelvin = celsius + 273
 
-print("celsius ke fahrenheit; ", fahrenhiet)
-print("celsius ke reamur; ", reamur)
-print("celsius ke kelvim; ", kelvin)
-print("fahrenheit ke celsius; ", celsuis)
+print("celsius to fahrenheit; ", fahrenhiet)
+print("celsius to reamur; ", reamur)
+print("celsius to kelvim; ", kelvin)
+print("fahrenheit to celsius; ", celsuis)
 
