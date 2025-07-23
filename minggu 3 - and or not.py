@@ -15,7 +15,7 @@ if kayuanput == 'kayu jati' or kayuanput == 'kayu sonokeling' or kayuanput == 'k
 
 elif kayuanput == 'kayu apaaja' or kayuanput == 'yang penting kayu' or kayuanput == 'apa aja' or kayuanput == 'yang mana aja' :           #you said any wood, so it give you any
     import random
-    kayura_ = ["\n\nkayu jati\n\n","\n\nkayu sonokeling\n\n","\n\nkayu merbau\n\n","\n\nkayu ulin\n\n","\n\nkayu bengkirai\n\n","\n\nkayu meranti\n\n","\n\nkayu sengon\n\n","\n\nkayu trembesi\n\n","\n\nkayu kamper\n\n"]
+    kayura_ = ("\n\nkayu jati\n\n","\n\nkayu sonokeling\n\n","\n\nkayu merbau\n\n","\n\nkayu ulin\n\n","\n\nkayu bengkirai\n\n","\n\nkayu meranti\n\n","\n\nkayu sengon\n\n","\n\nkayu trembesi\n\n","\n\nkayu kamper\n\n")
     randomsel = random.choice(kayura_)
     print(randomsel)         
 
