@@ -6,7 +6,7 @@ class doll :
         self.colors = colors
 
     def sold(self):
-        print(f"{self.character} dolls with {self.colors} colored ar sold")
+        print(f"{self.character} dolls with {self.colors} colored are sold")
 
     def sell(self):
-        print("f{self.character} dolls with {self.colored} are sell")
+        print(f"{self.character} dolls with {self.colors} colored are sell")
