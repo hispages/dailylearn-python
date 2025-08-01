@@ -25,3 +25,15 @@ class student:
         else:
             return "E"
         
+
+class Studentlist:
+    def __init__(self):
+        self.list =[]
+
+    def AddnewStudent(self, student):
+        self.list.append(student)
+    
+    def all_listOfstudent(self):
+        for stundet in self.list:
+            print("______________")
+            student.datalist
