@@ -17,5 +17,5 @@ print("\nNew line has been succesfully added")
 
 with open("Write.txt", "r") as file:
     print("result:")
-    nr = file.read()
-    print(nr)
+    print(file.read())
+   
